@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h3,li, div, span{
+   text-align: justify;color: blueviolet;
+
+}
