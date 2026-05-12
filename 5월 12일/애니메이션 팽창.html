@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes BIG {
+            0% {
+                color: blue;
+            font-size:100%}
+            50% {
+                color: red;
+            }
+            100%{color: blue;
+            font-size: 500%;}
+        }
+        span{
+            animation-name: BIG; 
+            animation-duration: 3s;/*재생시간*/
+            animation-iteration-count: infinite;/*반복횟수*/
+        }
+    </style>
+</head>
+
+<body>
+<p style="font-size: 20px;"><span>글씨</span>가 커집니다.</p>
+</body>
+
+</html>
