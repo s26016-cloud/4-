@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1105김세희</title>
+    <style>
+     .top {
+            display: flex;
+            gap: 50px;             
+            align-items: center;   
+            margin-bottom: 50px; 
+            flex-direction: row; }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;}
+
+        .nav-menu {
+            display: flex;
+            gap: 50px;              
+            list-style: none;       
+            padding: 0;
+            margin: 0;}
+        :hover.nav-menu a{background-color: blue;
+            color: yellow;}
+
+        .nav-menu a {
+            text-decoration: none;
+            color: yellowgreen;
+            font-size: 24px;
+            font-weight: bold;}
+
+        .active {
+            text-decoration: underline !important;}
+
+        .image{ background-image: url(사진.jpg);
+            height: 250px; width: 200px;
+            margin-left: 20px;
+            border: 5px solid black;
+            box-shadow: 5px 5px 3px grey;
+            margin-bottom: 20px;}
+
+        .text{margin-left: 20px;
+           margin-bottom: 20px;
+            width: 500px 300px;
+            border: 3px solid black;}
+        .경력{margin-left: 20px;
+            width: 500px 300px;
+            border: 3px solid black;}
+        footer{background-color:yellowgreen;
+            color: yellow;
+            margin-top: 20px;
+        text-align: center;}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="logo">GSM</div>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="Main.html" class="active">메인 페이지</a></li>
+                <li><a href="Projects.html">프로젝트 목록</a></li>
+                <li><a href="Skills.html">기술 목록</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section>
+         <h2>메인 페이지</h2>
+        <div class="image" id="se"></div>
+    <div class="text" id="se"><b>자기 소개</b><br>
+            안녕하세요. 저는 이제 프로그래머의 길에 발을 들인 김세희입니다. <br>
+            저는 상일 중학교를 졸업한 후에 프로그래밍에 대해 이것 저것 알아보기는 했지만<br>
+            광주 소프트웨어 마이스터 고등학교에 입학한 후에 프로그래밍이 뭔지도 모르는 상태로 입학했다는 걸 알게 됐습니다<br>
+            그래서 처음에는 프로그래밍에 기초적인 것도 몰랐고 전부 다 어렵기만 하고 이해도 안 됐습니다. <br>
+            하지만 제 강점인 꾸준히 노력하는 것으로 지금은 파이썬과 웹기를 어느정도 이해하고 코드도 작성하게 되었습니다. <br>
+            그 사실에 만족감을 느끼고 노력하면 무언가 바뀐다는 걸 세삼 느꼈습니다. </div>
+    <div class="경력">
+        <ul>
+            경력 사항
+            <li>상일 중학교 졸업</li>
+            <li>광주 소프트웨어 마이스터고 재학</li>
+            <li>파이썬 팀 프로젝트 진행 중</li>
+            <li>클라우드 기능반 소속</li>
+        </ul>
+    </div>
+        </section>
+    <footer>&copy; SEHUI15</footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1105김세희</title>
+    <style>
+        h3{color: blue;}
+        .top {
+            display: flex;
+            gap: 50px;             
+            align-items: center;   
+            margin-bottom: 50px; 
+            flex-direction: row; }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;}
+        .nav-menu {
+            display: flex;
+            gap: 50px;              
+            list-style: none;       
+            padding: 0;
+            margin: 0;}
+        :hover.nav-menu a{background-color: blue;
+            color: yellow;}
+
+        .nav-menu a {
+            text-decoration: none;
+            color: yellowgreen;
+            font-size: 24px;
+            font-weight: bold;}
+
+        .active {
+            text-decoration: underline !important;}
+
+        footer{background-color:yellowgreen;
+            color: yellow;
+            margin-top: 20px;
+        text-align: center;}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="logo">GSM</div>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="Main.html">메인 페이지</a></li>
+                <li><a href="Projects.html"  class="active">프로젝트 목록</a></li>
+                <li><a href="Skills.html">기술 목록</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+          <h2>프로젝트 목록</h2>
+    <h3>파이썬 팀 프로젝트</h3>
+    <p>3종류의 고양이 중에서 1마리를 선택한 후 이름을 정하고 밥, 산책, 목욕, 게임(스네이크) 등으로 <br>
+        고양이의 레벨을 올려 고양이가 아기->중묘->성묘 순서로 키우고 다 키운 후에는 다음 고양이를 <br>
+        키울 건지에 대한 화면이 뜬다. 레벨이 올라갈 때 마다 고양이의 모습도 바뀐다.</p>
+    <div class="img"><img src="고양이.png" width="200" height="200"></div>
+    <h3>주문 확인 프로젝트</h3>
+    <p>가게로 주문이 들어오면 그 주문이 처음인지 아니면 몇 번째 주문인지 확인하여 <br>
+        화면에 출력한 후 가게에서 얼마나 멀리 있는지 확인한 후에 자전거로 몇 분이나 <br>
+        걸리는지 출력한다. 자전거로 7분이상 걸리면 자동으로 라이더를 잡는 화면으로 바뀐다</p>
+    <div class="img"><img src="주문.png" width="200" height="200"></div>
+    </section>
+   
+    <footer>&copy; SEHUI15</footer>
+</body>
+</html>

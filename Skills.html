@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1105김세희</title>
+    <style>
+        .top {
+            display: flex;
+            gap: 50px;             
+            align-items: center;   
+            margin-bottom: 50px; 
+            flex-direction: row; }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;}
+
+        .nav-menu {
+            display: flex;
+            gap: 50px;              
+            list-style: none;       
+            padding: 0;
+            margin: 0;}
+        :hover.nav-menu a{background-color: blue;
+            color: yellow;}
+
+        .nav-menu a {
+            text-decoration: none;
+            color: yellowgreen;
+            font-size: 24px;
+            font-weight: bold;}
+
+        .active {
+            text-decoration: underline !important;}
+        footer{background-color:yellowgreen;
+            color: yellow;
+            margin-top: 20px;
+            text-align: center;}
+
+         @keyframes TCA {
+            0% {
+                color: blue;
+            }
+
+            50% {
+                color: green;
+            }
+
+            100% {
+                color: red;
+            }}
+
+        span{animation-name: TCA; 
+            animation-duration: 5s;/*재생시간*/
+            animation-iteration-count: infinite;/*반복횟수*/}
+    </style>
+</head>
+<body>
+     <header class="top">
+        <div class="logo">GSM</div>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="Main.html" >메인 페이지</a></li>
+                <li><a href="Projects.html">프로젝트 목록</a></li>
+                <li><a href="Skills.html" class="active">기술 목록</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>기술 목록</h2>
+        <ul>
+            <li>python</li>
+            <p>객체지향 코딩 언어, 가장 쉬운 코딩 언어 주로 함수를 이용해서 <br>
+                프로그래밍을 짠다. 조건문과 반복문 역시 자주 사용하고 다양한 내장 함수가 있다. <br>
+                IDLE와 비쥬얼 스튜디오를 이용해서 사용 가능하다. 문법이 정확하지 않고 될까 싶은 코드도 <br>
+                돌아갈때가 많다.고양이 키우기 게임과 주문 확인 프로젝트에서 사용하고 있다. </p>
+            <li>tkinter </li>
+            <p>파이썬의 내장함수 중 하나로 다운로드 할 필요없이 사용가능하다. <br>
+                파이썬으로 웹페이지를 만들 수 있게 해준다. 화면을 만든 후에 label이나 <br>
+                button을 만들어서 pack나 place를 이용해서 만든 화면에다가 올리는 방식을 사용해서 <br>
+                pack나 place를 쓰지 않으면 화면에 뜨지 않는다. 사용하기 위해서는 import구문을 써야한다. <br>
+                고양이 키우기 게임과 주문 확인 프로젝트에서 사용하고 있다. </p>
+            <li>HTML5/CSS3</li>
+            <p><span>HTML5는 웹페이지의 뼈대를 만들고 CSS3는 만들어놓은 뼈대에 꾸미는 역할을 한다. <br>
+                같이 쓰일 수 있으나 각자의 영역에서 주석을 다는 방법이 다르니까 주의해야한다. <br>
+                시멘틱 태그로 header,section,footer등의 영역으로 만드는 경우가 많다<br>
+                애니메이션기술을 사용했고 애니메이션 기술은 따로 style에서 만든 후에 <br>
+                이름으로 불러와서 사용한다. 재생시간과 반복 횟수를 정할 수 있다.</span></p>
+        </ul>
+    </section>
+      <footer>&copy; SEHUI15</footer>
+</body>
+</html>
